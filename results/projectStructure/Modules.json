@@ -1,0 +1,67 @@
+{
+  "modules": [
+    {
+      "name": "rider.module",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/.run",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/BadRulesProject.csproj",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/AsyncVoid.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Cache.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Class1.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/MultiThreadedComponent.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/TypeCheckAndCast.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/.gitignore",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/qodana.yaml",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/obj/Debug/net6.0/BadRulesProject.GlobalUsings.g.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/obj/Debug/net6.0/BadRulesProject.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/obj/Debug/net6.0/BadRulesProject.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
+          "path": "file:///usr/share/dotnet/sdk/7.0.102/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        }
+      ]
+    }
+  ]
+}

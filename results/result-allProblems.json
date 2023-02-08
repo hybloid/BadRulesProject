@@ -1,0 +1,1441 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Language Usage Opportunities",
+  "type": "Convert delegate variable into local function",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Use local function",
+  "detailsInfo": "Replace delegate variable with local function [Learn more...](https://www.jetbrains.com/help/rider/ConvertToLocalFunction.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 10,
+      "offset": 20,
+      "length": 5,
+      "code": {
+        "startLine": 8,
+        "length": 5,
+        "offset": 79,
+        "surroundingCode": "        for (var i = 0; i < myStrings.Count; i++)\n        {\n            Action print = () => { Console.WriteLine(myStrings[i]); };\n            myActions.Add(print);\n        }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "ConvertToLocalFunction"
+  },
+  "hash": "d011e443e199523d4711a5478de970a5702d4199acabcf04eee8268929ed513b"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use explicit or implicit modifier definition for type members",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Inconsistent modifiers style: missing 'private' modifier",
+  "detailsInfo": "'private' modifier can be safely added/removed from type members without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeMemberModifiers.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 8,
+      "length": 6,
+      "code": {
+        "startLine": 1,
+        "length": 6,
+        "offset": 32,
+        "surroundingCode": "public class AsyncVoid {\n  void Method()\n  {\n      RunThisAction(async () =>"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "ArrangeTypeMemberModifiers"
+  },
+  "hash": "e8519bea9eada0aface5890b9dbe8c8b8221e7a901be5f4143372c49ee2a0327"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use explicit or implicit modifier definition for type members",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Inconsistent modifiers style: missing 'private' modifier",
+  "detailsInfo": "'private' modifier can be safely added/removed from type members without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeMemberModifiers.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 10,
+      "length": 4,
+      "code": {
+        "startLine": 1,
+        "length": 4,
+        "offset": 41,
+        "surroundingCode": "public class TypeCheckAndCast {\n    void Test(object obj)\n    {\n        if (obj is string)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "ArrangeTypeMemberModifiers"
+  },
+  "hash": "4c3de6be7c6c5e5b9b06c1ec30b410f7eee97b2e826aed6b92249f1b3f46006b"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Unused local variable",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Local variable 'a' is never used",
+  "detailsInfo": "Local variable is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedVariable.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Cache.cs",
+      "language": "C#",
+      "line": 25,
+      "offset": 13,
+      "length": 1,
+      "code": {
+        "startLine": 23,
+        "length": 1,
+        "offset": 113,
+        "surroundingCode": "        // Warning: anonymous function\n        // should not have captures of the containing context\n        var a = cache.GetData(key, calculator: x => key.Length);\n    }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedVariable"
+  },
+  "hash": "a9a513839265bd67ec43ac69b54285e47d6db0b77daf809fb6f0e49bc684c6e1"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Unused local variable",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Local variable 'str' is never used",
+  "detailsInfo": "Local variable is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedVariable.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 6,
+      "offset": 20,
+      "length": 3,
+      "code": {
+        "startLine": 4,
+        "length": 3,
+        "offset": 56,
+        "surroundingCode": "        if (obj is string)\n        {\n            string str = (string) obj;\n            // do something\n        }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedVariable"
+  },
+  "hash": "1b708e8c0d9c1617f0431dc6172e447035a63a22765b053df7eff69a35856af8"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Replace built-in type reference with a CLR type name or a keyword",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Built-in type reference is inconsistent with code style settings",
+  "detailsInfo": "CLR type names and corresponding C# keyword are interchangeable and do not affect code semantics [Learn more...](https://www.jetbrains.com/help/rider/BuiltInTypeReferenceStyle.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 14,
+      "offset": 10,
+      "length": 6,
+      "code": {
+        "startLine": 12,
+        "length": 6,
+        "offset": 14,
+        "surroundingCode": "  }\n\n  public String RunThisAction(Action doSomething)\n  {\n      doSomething();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "BuiltInTypeReferenceStyle"
+  },
+  "hash": "00174f0662f46c26fac9330a595001f9c61ab52ef6e760fad0f3f0b71153c022"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use preferred 'var' style (for built-in types)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Use 'var' (built-in types)",
+  "detailsInfo": "Convert if declaration is of a built-in type (e.g. string) [Learn more...](https://www.jetbrains.com/help/rider/SuggestVarOrType_BuiltInTypes.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 6,
+      "offset": 13,
+      "length": 6,
+      "code": {
+        "startLine": 4,
+        "length": 6,
+        "offset": 49,
+        "surroundingCode": "        if (obj is string)\n        {\n            string str = (string) obj;\n            // do something\n        }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "SuggestVarOrType_BuiltInTypes"
+  },
+  "hash": "355b3a037e4e0ed7277393f2503a5571c0c0e8e6f2103981be7402523b26e0fb"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Method return value is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Method 'RunThisAction' return value is never used",
+  "detailsInfo": "Method return value is never used",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 14,
+      "offset": 10,
+      "length": 6,
+      "code": {
+        "startLine": 12,
+        "length": 6,
+        "offset": 14,
+        "surroundingCode": "  }\n\n  public String RunThisAction(Action doSomething)\n  {\n      doSomething();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedMethodReturnValue.Global"
+  },
+  "hash": "13eae3ad005648a97fac9287579eb94ae67896073c53f06a958eafe456ebc884"
+},{
+  "tool": "Code Inspection",
+  "category": "Constraints Violations",
+  "type": "Namespace does not correspond to file location",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Namespace does not correspond to file location, must be: 'BadRulesProject'",
+  "detailsInfo": "Namespace in file does not have a form of 'project Default Namespace plus folder names in the path to the file'. You can configure which folders form the namespace on the folder's Properties page. [Learn more...](https://www.jetbrains.com/help/rider/CheckNamespace.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Cache.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 7,
+      "length": 5,
+      "code": {
+        "startLine": 1,
+        "length": 5,
+        "offset": 35,
+        "surroundingCode": "using JetBrains.Annotations;\nclass Cache\n{\n  private Dictionary<string, int> _cache = new();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "CheckNamespace"
+  },
+  "hash": "d61b5c60c98a567a836a210eb54bf133fa914981bbb9979e5b7a9415064c63a7"
+},{
+  "tool": "Code Inspection",
+  "category": "Constraints Violations",
+  "type": "Namespace does not correspond to file location",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Namespace does not correspond to file location, must be: 'BadRulesProject'",
+  "detailsInfo": "Namespace in file does not have a form of 'project Default Namespace plus folder names in the path to the file'. You can configure which folders form the namespace on the folder's Properties page. [Learn more...](https://www.jetbrains.com/help/rider/CheckNamespace.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 1,
+      "offset": 14,
+      "length": 9,
+      "code": {
+        "startLine": 1,
+        "length": 9,
+        "offset": 13,
+        "surroundingCode": "public class AsyncVoid {\n  void Method()\n  {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "CheckNamespace"
+  },
+  "hash": "788164bf4846efd8bf3599ae15a210e941fe78a982ecf921e78947eb91fbedb2"
+},{
+  "tool": "Code Inspection",
+  "category": "Constraints Violations",
+  "type": "Namespace does not correspond to file location",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Namespace does not correspond to file location, must be: 'BadRulesProject'",
+  "detailsInfo": "Namespace in file does not have a form of 'project Default Namespace plus folder names in the path to the file'. You can configure which folders form the namespace on the folder's Properties page. [Learn more...](https://www.jetbrains.com/help/rider/CheckNamespace.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 1,
+      "offset": 14,
+      "length": 16,
+      "code": {
+        "startLine": 1,
+        "length": 16,
+        "offset": 13,
+        "surroundingCode": "public class TypeCheckAndCast {\n    void Test(object obj)\n    {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "CheckNamespace"
+  },
+  "hash": "40c7f24a4a2e7a74467a16e49a487ddf68a769ff7abae2bdf695e5f295b66839"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Unused parameter (private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Parameter 'x' is never used",
+  "detailsInfo": "Parameter is never used",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Cache.cs",
+      "language": "C#",
+      "line": 25,
+      "offset": 48,
+      "length": 1,
+      "code": {
+        "startLine": 23,
+        "length": 1,
+        "offset": 148,
+        "surroundingCode": "        // Warning: anonymous function\n        // should not have captures of the containing context\n        var a = cache.GetData(key, calculator: x => key.Length);\n    }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedParameter.Local"
+  },
+  "hash": "e05256de3ebe03d9bd21c6b83c11895c3614ecf53b1859f73af6c4104e37af4c"
+},{
+  "tool": "Code Inspection",
+  "category": "Common Practices and Code Improvements",
+  "type": "Member can be made static (shared) (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Method 'RunThisAction' can be made static",
+  "detailsInfo": "A non-virtual instance member does not use 'this' object (neither implicitly nor explicitly) and can be made static (shared) [Learn more...](https://www.jetbrains.com/help/rider/MemberCanBeMadeStatic.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 14,
+      "offset": 17,
+      "length": 13,
+      "code": {
+        "startLine": 12,
+        "length": 13,
+        "offset": 21,
+        "surroundingCode": "  }\n\n  public String RunThisAction(Action doSomething)\n  {\n      doSomething();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "MemberCanBeMadeStatic.Global"
+  },
+  "hash": "40c5d746c7170a30afb6b2d261cf5825ad4219ad6127816a988e6e4fddbaf84e"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Class 'Class1' is never used",
+  "detailsInfo": "Type is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedType.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 14,
+      "length": 6,
+      "code": {
+        "startLine": 1,
+        "length": 6,
+        "offset": 40,
+        "surroundingCode": "namespace BadRulesProject;\npublic class Class1 {\n\n    public void Method() {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedType.Global"
+  },
+  "hash": "7e5906e2412cd29920b961e133e8705d7bb347c667f4fe88a55254b1379b48a8"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Class 'CacheTest' is never used",
+  "detailsInfo": "Type is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedType.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Cache.cs",
+      "language": "C#",
+      "line": 17,
+      "offset": 7,
+      "length": 9,
+      "code": {
+        "startLine": 15,
+        "length": 9,
+        "offset": 9,
+        "surroundingCode": "}\n\nclass CacheTest\n{\n    public CacheTest()"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedType.Global"
+  },
+  "hash": "3d38b5ddf2206218430b2da953da882ef5d8f52d4836b65ac62409eb4ced8be5"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Class 'TypeCheckAndCast' is never used",
+  "detailsInfo": "Type is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedType.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 1,
+      "offset": 14,
+      "length": 16,
+      "code": {
+        "startLine": 1,
+        "length": 16,
+        "offset": 13,
+        "surroundingCode": "public class TypeCheckAndCast {\n    void Test(object obj)\n    {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedType.Global"
+  },
+  "hash": "68f92e342942b423c900817273c58efc0a5ef223aff7cd4bbb407e0a09107a7e"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Class 'AsyncVoid' is never used",
+  "detailsInfo": "Type is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedType.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 1,
+      "offset": 14,
+      "length": 9,
+      "code": {
+        "startLine": 1,
+        "length": 9,
+        "offset": 13,
+        "surroundingCode": "public class AsyncVoid {\n  void Method()\n  {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedType.Global"
+  },
+  "hash": "77cca79188fa34102fe99bee935aeb8c43f8434a4da327f23b74d75fc0cf9a57"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Class 'MultiThreadedComponent' is never used",
+  "detailsInfo": "Type is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedType.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 7,
+      "length": 22,
+      "code": {
+        "startLine": 1,
+        "length": 22,
+        "offset": 33,
+        "surroundingCode": "namespace BadRulesProject;\nclass MultiThreadedComponent\n{\n  private List<string> _resource1 = new();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedType.Global"
+  },
+  "hash": "c540b01b56aed8d36597d69c690970f6169d262e65e2781d8950a9f2082110ba"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Collection is never updated (private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Content of collection '_resource1' is never updated",
+  "detailsInfo": "New elements are never added to the collection [Learn more...](https://www.jetbrains.com/help/rider/CollectionNeverUpdated.Local.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 4,
+      "offset": 24,
+      "length": 10,
+      "code": {
+        "startLine": 2,
+        "length": 10,
+        "offset": 54,
+        "surroundingCode": "class MultiThreadedComponent\n{\n  private List<string> _resource1 = new();\n  private List<string> _resource2 = new();\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "CollectionNeverUpdated.Local"
+  },
+  "hash": "a13a6278da7d3addea58fb881697dcebf86c37ef4aeab875972910e7023e31a4"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Collection is never updated (private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Content of collection '_resource2' is never updated",
+  "detailsInfo": "New elements are never added to the collection [Learn more...](https://www.jetbrains.com/help/rider/CollectionNeverUpdated.Local.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 5,
+      "offset": 24,
+      "length": 10,
+      "code": {
+        "startLine": 3,
+        "length": 10,
+        "offset": 68,
+        "surroundingCode": "{\n  private List<string> _resource1 = new();\n  private List<string> _resource2 = new();\n\n  public void PublicApi01()"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "CollectionNeverUpdated.Local"
+  },
+  "hash": "f88c6200838e1f4af424ea436cb4b5bc57d4cc3d1b5e67f0a4783f9f0b093fa4"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Type check and casts can be merged",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Merge cast with type check",
+  "detailsInfo": "Type check ('is' expression) and direct cast(s) after it can be merged [Learn more...](https://www.jetbrains.com/help/rider/MergeCastWithTypeCheck.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 4,
+      "offset": 17,
+      "length": 2,
+      "code": {
+        "startLine": 2,
+        "length": 2,
+        "offset": 48,
+        "surroundingCode": "    void Test(object obj)\n    {\n        if (obj is string)\n        {\n            string str = (string) obj;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "MergeCastWithTypeCheck"
+  },
+  "hash": "b0b1c20961943bbff83ff81c1c4a75a50bc21cfefe4f2e7a6cacf3a4cd1164d1"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Code",
+  "type": "Redundant empty argument list on object creation expression",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Empty argument list is redundant",
+  "detailsInfo": "When object creation uses object or collection initializer, empty argument list is redundant",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 6,
+      "offset": 41,
+      "length": 2,
+      "code": {
+        "startLine": 4,
+        "length": 2,
+        "offset": 111,
+        "surroundingCode": "    public void Method() {\n        var myActions = new List<Action>();\n        var myStrings = new List<string>() { \"one\", \"two\", \"three\" };\n\n        for (var i = 0; i < myStrings.Count; i++)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "RedundantEmptyObjectCreationArgumentList"
+  },
+  "hash": "eb5902c38a216c589d083c083ab69c97ef5814f7753bd5ecf7226f12eeb50b73"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use preferred 'var' style (when type is simple)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Use 'var' (simple types)",
+  "detailsInfo": "Convert if simple type (not an array and does not have generic parameters) [Learn more...](https://www.jetbrains.com/help/rider/SuggestVarOrType_SimpleTypes.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 10,
+      "offset": 13,
+      "length": 6,
+      "code": {
+        "startLine": 8,
+        "length": 6,
+        "offset": 72,
+        "surroundingCode": "        for (var i = 0; i < myStrings.Count; i++)\n        {\n            Action print = () => { Console.WriteLine(myStrings[i]); };\n            myActions.Add(print);\n        }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "SuggestVarOrType_SimpleTypes"
+  },
+  "hash": "bdabaefc96e7cf327ce83176c785ffe8bee24de351cd44a5d2bd0f845c7afa07"
+},{
+  "tool": "Code Inspection",
+  "category": "Language Usage Opportunities",
+  "type": "Lambda expression/anonymous method must not have captures of the containing context",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Anonymous function must not have captures of the containing context",
+  "detailsInfo": "Lambda expression/anonymous method passed to parameter annotated by '\\[RequireStaticDelegate\\]' attribute must not have captures of the containing context (local variables, local functions, 'this' reference) to avoid heap allocations [Learn more...](https://www.jetbrains.com/help/rider/LambdaShouldNotCaptureContext.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Cache.cs",
+      "language": "C#",
+      "line": 25,
+      "offset": 50,
+      "length": 2,
+      "code": {
+        "startLine": 23,
+        "length": 2,
+        "offset": 150,
+        "surroundingCode": "        // Warning: anonymous function\n        // should not have captures of the containing context\n        var a = cache.GetData(key, calculator: x => key.Length);\n    }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "LambdaShouldNotCaptureContext"
+  },
+  "hash": "d6f19a0e5a2946c6118c94688b50ba911fdb3ff4dad18ace3727541ce548648d"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type member is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Method 'Method' is never used",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 4,
+      "offset": 17,
+      "length": 6,
+      "code": {
+        "startLine": 2,
+        "length": 6,
+        "offset": 39,
+        "surroundingCode": "public class Class1 {\n\n    public void Method() {\n        var myActions = new List<Action>();\n        var myStrings = new List<string>() { \"one\", \"two\", \"three\" };"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedMember.Global"
+  },
+  "hash": "d2b85ea141ee6e963f0e9c9efc273594f800deae6218cc90ac2cd9f809c0be0a"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type member is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Method 'PublicApi01' is never used",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 7,
+      "offset": 15,
+      "length": 11,
+      "code": {
+        "startLine": 5,
+        "length": 11,
+        "offset": 58,
+        "surroundingCode": "  private List<string> _resource2 = new();\n\n  public void PublicApi01()\n  {\n    lock (_resource1)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedMember.Global"
+  },
+  "hash": "257ff4ac945648446eed373ecc9c9baf7375d0034589ef7938dab31cd5e2ba9e"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type member is never used (non-private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Method 'PublicApi02' is never used",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 16,
+      "offset": 15,
+      "length": 11,
+      "code": {
+        "startLine": 14,
+        "length": 11,
+        "offset": 19,
+        "surroundingCode": "  }\n\n  public void PublicApi02()\n  {\n    lock (_resource2)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedMember.Global"
+  },
+  "hash": "4b4662489213806badb28a90e7e400fde541bffe63b817840101abb484833119"
+},{
+  "tool": "Code Inspection",
+  "category": "Language Usage Opportunities",
+  "type": "Loop can be converted into LINQ-expression",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Loop can be converted into LINQ-expression",
+  "detailsInfo": "A 'foreach' ('For Each' for VB.NET) or 'for' statement can be converted into a LINQ-expression [Learn more...](https://www.jetbrains.com/help/rider/LoopCanBeConvertedToQuery.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 8,
+      "offset": 9,
+      "length": 3,
+      "code": {
+        "startLine": 6,
+        "length": 3,
+        "offset": 79,
+        "surroundingCode": "        var myStrings = new List<string>() { \"one\", \"two\", \"three\" };\n\n        for (var i = 0; i < myStrings.Count; i++)\n        {\n            Action print = () => { Console.WriteLine(myStrings[i]); };"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "LoopCanBeConvertedToQuery"
+  },
+  "hash": "74d211f123b8a35d30d16405ab0e613dc51bb7fb09c80c8951d1a7893963b803"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Inconsistent order of taken locks",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock if methods (properties) of this type are executed concurrently by multiple threads. Lock objects involved in the cycle: '_resource1', '_resource2' Example of the deadlock situation: - Thread #1 executes 'PublicApi01', takes locks '_resource1' -> '_resource2' - Thread #2 executes 'PublicApi02', takes locks '_resource2' -> '_resource1'",
+  "detailsInfo": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock in a multi-threaded execution. [Learn more...](https://www.jetbrains.com/help/rider/InconsistentOrderOfLocks.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 9,
+      "offset": 11,
+      "length": 10,
+      "code": {
+        "startLine": 7,
+        "length": 10,
+        "offset": 42,
+        "surroundingCode": "  public void PublicApi01()\n  {\n    lock (_resource1)\n    lock (_resource2)\n    {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "InconsistentOrderOfLocks"
+  },
+  "hash": "0b7509a7b158618af7c4cb412650d96d9d3f64dbff8c60e1e1a85795fe50ba7f"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Inconsistent order of taken locks",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock if methods (properties) of this type are executed concurrently by multiple threads. Lock objects involved in the cycle: '_resource1', '_resource2' Example of the deadlock situation: - Thread #1 executes 'PublicApi01', takes locks '_resource1' -> '_resource2' - Thread #2 executes 'PublicApi02', takes locks '_resource2' -> '_resource1'",
+  "detailsInfo": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock in a multi-threaded execution. [Learn more...](https://www.jetbrains.com/help/rider/InconsistentOrderOfLocks.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 10,
+      "offset": 11,
+      "length": 10,
+      "code": {
+        "startLine": 8,
+        "length": 10,
+        "offset": 36,
+        "surroundingCode": "  {\n    lock (_resource1)\n    lock (_resource2)\n    {\n      // do work"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "InconsistentOrderOfLocks"
+  },
+  "hash": "fa9cb7e9132111449b2cc6e271e6f379575716609710c96f869819b21f9146f4"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Inconsistent order of taken locks",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock if methods (properties) of this type are executed concurrently by multiple threads. Lock objects involved in the cycle: '_resource1', '_resource2' Example of the deadlock situation: - Thread #1 executes 'PublicApi01', takes locks '_resource1' -> '_resource2' - Thread #2 executes 'PublicApi02', takes locks '_resource2' -> '_resource1'",
+  "detailsInfo": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock in a multi-threaded execution. [Learn more...](https://www.jetbrains.com/help/rider/InconsistentOrderOfLocks.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 18,
+      "offset": 11,
+      "length": 10,
+      "code": {
+        "startLine": 16,
+        "length": 10,
+        "offset": 42,
+        "surroundingCode": "  public void PublicApi02()\n  {\n    lock (_resource2)\n    {\n      // do work"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "InconsistentOrderOfLocks"
+  },
+  "hash": "7e3920a8cffaa186d685f7de657d3f15e07e027fb44385a37d057ceeddec38e8"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Inconsistent order of taken locks",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock if methods (properties) of this type are executed concurrently by multiple threads. Lock objects involved in the cycle: '_resource1', '_resource2' Example of the deadlock situation: - Thread #1 executes 'PublicApi01', takes locks '_resource1' -> '_resource2' - Thread #2 executes 'PublicApi02', takes locks '_resource2' -> '_resource1'",
+  "detailsInfo": "The expression is used in several lock statements with inconsistent execution order, forming a cycle. This might lead to a possible deadlock in a multi-threaded execution. [Learn more...](https://www.jetbrains.com/help/rider/InconsistentOrderOfLocks.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 35,
+      "offset": 11,
+      "length": 10,
+      "code": {
+        "startLine": 33,
+        "length": 10,
+        "offset": 180,
+        "surroundingCode": "    //  - Thread #1 executes 'PublicApi01', takes locks '_resource1' -> '_resource2'\n    //  - Thread #2 executes 'PublicApi02', takes locks '_resource2' -> '_resource1'\n    lock (_resource1)\n    {\n      // do work"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "InconsistentOrderOfLocks"
+  },
+  "hash": "49728997b921e76aa2ac7778a3dad0ef720d48fc7c0720c8237246d33e6cacbb"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use explicit or implicit modifier definition for types",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Inconsistent modifiers style: missing 'internal' modifier",
+  "detailsInfo": "'internal' modifier can be safely added/removed from types without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeModifiers.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Cache.cs",
+      "language": "C#",
+      "line": 17,
+      "offset": 7,
+      "length": 9,
+      "code": {
+        "startLine": 15,
+        "length": 9,
+        "offset": 9,
+        "surroundingCode": "}\n\nclass CacheTest\n{\n    public CacheTest()"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "ArrangeTypeModifiers"
+  },
+  "hash": "c937f32bd5829fbc8bdfd5f5ac035be295a3fe65af1610ce930e2a82e4e3c4e4"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use explicit or implicit modifier definition for types",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Inconsistent modifiers style: missing 'internal' modifier",
+  "detailsInfo": "'internal' modifier can be safely added/removed from types without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeModifiers.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "MultiThreadedComponent.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 7,
+      "length": 22,
+      "code": {
+        "startLine": 1,
+        "length": 22,
+        "offset": 33,
+        "surroundingCode": "namespace BadRulesProject;\nclass MultiThreadedComponent\n{\n  private List<string> _resource1 = new();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "ArrangeTypeModifiers"
+  },
+  "hash": "ad2b9bbe8bf64cbccde53b970a2bad651af4c23084e13f2cce329ff6f77e97e1"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Access to modified captured variable",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Captured variable is modified in the outer scope",
+  "detailsInfo": "Access to captured variable from anonymous method when the variable is modified externally [Learn more...](https://www.jetbrains.com/help/rider/AccessToModifiedClosure.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 10,
+      "offset": 64,
+      "length": 1,
+      "code": {
+        "startLine": 8,
+        "length": 1,
+        "offset": 123,
+        "surroundingCode": "        for (var i = 0; i < myStrings.Count; i++)\n        {\n            Action print = () => { Console.WriteLine(myStrings[i]); };\n            myActions.Add(print);\n        }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "AccessToModifiedClosure"
+  },
+  "hash": "fc6f1ea847530b33f909b350672fcd7e1fca0d8394791fdecf2c3b0e036cdf91"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Roslyn analyzers output",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "RoslynAnalyzers Mark members as static: Member 'Method' does not access instance data and can be marked as static",
+  "detailsInfo": "Presents output of Roslyn analyzers",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Class1.cs",
+      "language": "C#",
+      "line": 4,
+      "offset": 17,
+      "length": 6,
+      "code": {
+        "startLine": 2,
+        "length": 6,
+        "offset": 39,
+        "surroundingCode": "public class Class1 {\n\n    public void Method() {\n        var myActions = new List<Action>();\n        var myStrings = new List<string>() { \"one\", \"two\", \"three\" };"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "RoslynAnalyzersOutputInspection"
+  },
+  "hash": "c28980c9940a73e8e67a903f983962ff83d174808ce30cda4540b2b4442b5aa3"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Roslyn analyzers output",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "RoslynAnalyzers Mark members as static: Member 'RunThisAction' does not access instance data and can be marked as static",
+  "detailsInfo": "Presents output of Roslyn analyzers",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 14,
+      "offset": 17,
+      "length": 13,
+      "code": {
+        "startLine": 12,
+        "length": 13,
+        "offset": 21,
+        "surroundingCode": "  }\n\n  public String RunThisAction(Action doSomething)\n  {\n      doSomething();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "RoslynAnalyzersOutputInspection"
+  },
+  "hash": "dfce8d330c1d9904ec8658f725b03dfce9f0a20f48516db9b597741b5bc5eaab"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Roslyn analyzers output",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "RoslynAnalyzers Declare types in namespaces: Declare types in namespaces",
+  "detailsInfo": "Presents output of Roslyn analyzers",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 1,
+      "offset": 14,
+      "length": 9,
+      "code": {
+        "startLine": 1,
+        "length": 9,
+        "offset": 13,
+        "surroundingCode": "public class AsyncVoid {\n  void Method()\n  {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "RoslynAnalyzersOutputInspection"
+  },
+  "hash": "69d646fe3808afbb5a84512dd1b2f06b20e4f02ec1394408be7f4f7866cdddf8"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Roslyn analyzers output",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "RoslynAnalyzers Mark members as static: Member 'Test' does not access instance data and can be marked as static",
+  "detailsInfo": "Presents output of Roslyn analyzers",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 10,
+      "length": 4,
+      "code": {
+        "startLine": 1,
+        "length": 4,
+        "offset": 41,
+        "surroundingCode": "public class TypeCheckAndCast {\n    void Test(object obj)\n    {\n        if (obj is string)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "RoslynAnalyzersOutputInspection"
+  },
+  "hash": "21723a07078d583edb68565c459bf9d0170cc33dc613ff21ca28f36859cedcc1"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Roslyn analyzers output",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "Moderate",
+  "comment": "RoslynAnalyzers Declare types in namespaces: Declare types in namespaces",
+  "detailsInfo": "Presents output of Roslyn analyzers",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 1,
+      "offset": 14,
+      "length": 16,
+      "code": {
+        "startLine": 1,
+        "length": 16,
+        "offset": 13,
+        "surroundingCode": "public class TypeCheckAndCast {\n    void Test(object obj)\n    {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "RoslynAnalyzersOutputInspection"
+  },
+  "hash": "16adc2f7e3f6c3e30aad056716b46423f0e9afc8a9f8afea0c9cec08645cbc2d"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type member is never used (private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Method 'Method' is never used",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Local.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 8,
+      "length": 6,
+      "code": {
+        "startLine": 1,
+        "length": 6,
+        "offset": 32,
+        "surroundingCode": "public class AsyncVoid {\n  void Method()\n  {\n      RunThisAction(async () =>"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedMember.Local"
+  },
+  "hash": "0209d42258f045f8acbf9245effc926803bdd023ca75dd2d3c2204a1d9769798"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type member is never used (private accessibility)",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Method 'Test' is never used",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Local.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "TypeCheckAndCast.cs",
+      "language": "C#",
+      "line": 2,
+      "offset": 10,
+      "length": 4,
+      "code": {
+        "startLine": 1,
+        "length": 4,
+        "offset": 41,
+        "surroundingCode": "public class TypeCheckAndCast {\n    void Test(object obj)\n    {\n        if (obj is string)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "UnusedMember.Local"
+  },
+  "hash": "8c863f3506bff856172acd1780947560a7abf1f80f86173da9b4269d2edf8fd8"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Avoid using 'async' lambda when delegate type returns 'void'",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Avoid using 'async' lambda when delegate type returns 'void'",
+  "detailsInfo": "Check the usage of 'async' lambda expression: any exceptions unhandled by the lambda might lead to the process crash [Learn more...](https://www.jetbrains.com/help/rider/AsyncVoidLambda.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 4,
+      "offset": 21,
+      "length": 5,
+      "code": {
+        "startLine": 2,
+        "length": 5,
+        "offset": 40,
+        "surroundingCode": "  void Method()\n  {\n      RunThisAction(async () =>\n      {\n          await Task.Delay(1000);"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "AsyncVoidLambda"
+  },
+  "hash": "c6c7581367ecf2e675b4df22c45ddf4926360cf40adb0d26ab46be5ffd118fe0"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Avoid using 'async' lambda when delegate type returns 'void'",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Avoid using 'async' lambda when delegate type returns 'void'",
+  "detailsInfo": "Check the usage of 'async' lambda expression: any exceptions unhandled by the lambda might lead to the process crash [Learn more...](https://www.jetbrains.com/help/rider/AsyncVoidLambda.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 9,
+      "offset": 21,
+      "length": 5,
+      "code": {
+        "startLine": 7,
+        "length": 5,
+        "offset": 77,
+        "surroundingCode": "          throw new NotImplementedException();\n      });\n      RunThisAction(async () => await Task.Delay(1000));\n      // or\n      RunThisAction(async delegate { await Task.Delay(1000); });"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "AsyncVoidLambda"
+  },
+  "hash": "1527e14622d09ebda12279e7f7204e47da39a784c5158d2f6770595c09eeff02"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Avoid using 'async' lambda when delegate type returns 'void'",
+  "tags": [
+    "C#",
+    ".NET 6.0"
+  ],
+  "severity": "High",
+  "comment": "Avoid using 'async' lambda when delegate type returns 'void'",
+  "detailsInfo": "Check the usage of 'async' lambda expression: any exceptions unhandled by the lambda might lead to the process crash [Learn more...](https://www.jetbrains.com/help/rider/AsyncVoidLambda.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "AsyncVoid.cs",
+      "language": "C#",
+      "line": 11,
+      "offset": 21,
+      "length": 5,
+      "code": {
+        "startLine": 9,
+        "length": 5,
+        "offset": 89,
+        "surroundingCode": "      RunThisAction(async () => await Task.Delay(1000));\n      // or\n      RunThisAction(async delegate { await Task.Delay(1000); });\n  }\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "BadRulesProject",
+    "inspectionName": "AsyncVoidLambda"
+  },
+  "hash": "4f4e1ee310ac9e1ca98a91a24e8911766f49a131b58230296d07089f66feafb6"
+}]}

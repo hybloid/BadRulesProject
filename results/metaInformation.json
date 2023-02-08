@@ -1,0 +1,19 @@
+{
+  "total": 45,
+  "tools inspection": {
+    "Code Inspection": 45
+  },
+  "linter": "QDNET",
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/hybloid/BadRulesProject.git",
+        "revisionId": "7b5a500aed715a577400462d994a5b3f10102d08",
+        "branch": "main"
+      }
+    },
+    "deviceId": "200820300000000-0000-0000-0000-000000000001",
+    "jobUrl": "https://github.com/hybloid/BadRulesProject/actions/runs/4124188215",
+    "repoUrl": "https://github.com/hybloid/BadRulesProject.git"
+  }
+}

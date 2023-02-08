@@ -1,0 +1,1289 @@
+Project [Name:&, GUID:f300dc1b-e643-4ccb-80ee-a7f840b07500]
+  Referenced projects:
+  Referenced assemblies:
+
+Project [Name:BadRulesProject, GUID:b69afbf0-e1cd-ac62-b4ac-f3eff5504d48]
+  CSharp Properties:
+    Active configuration for 'net6.0':
+        AllowUnsafeCode:False
+        BaseAddress:4194304
+        CheckForOverflowUnderflow:False
+        FileAlignment:512
+        DebugSymbols:True
+        IncrementalBuild:True
+        WarningsAsErrors:;NU1605
+        LanguageVersion:CSharp10
+        NullableContextKind:Enable
+        ImplicitUsingsKind:Enable
+        DefineConstants:TRACE;DEBUG;NET;NET6_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+        EnableUnmanagedCodeDebugging:False
+        GenerateSerializationAssemblies :False
+        RelativeIntermediateDirectory:obj/Debug/net6.0/
+        Optimize:False
+        RegisterForCOMInterop:False
+        RemoveIntegerChecks:False
+        NoWarn:1701;1702;IL2121;1701;1702
+        TreatWarningsAsErrors:False
+        WarningLevel:6
+        DocumentationFile:
+        OutputType:LIBRARY
+        StartupObject:
+        OutputAssemblyName:BadRulesProject
+        OutputAssemblyExtension:.dll
+        HasRunCommand:False
+      Name:Debug
+      RelativeOutputDirectory:bin/Debug/net6.0/
+      RelativeIntermediateDirectory:obj/Debug/net6.0/
+      Properties:AndroidUseManagedDesignTimeResourceGenerator=True, AssemblyName=BadRulesProject, BaseIntermediateOutputPath=obj/, CSharpCoreTargetsPath=/usr/share/dotnet/sdk/7.0.102/Roslyn/Microsoft.CSharp.Core.targets, EditorConfigFiles=obj/Debug/net6.0/BadRulesProject.GeneratedMSBuildEditorConfig.editorconfig;/usr/share/dotnet/sdk/7.0.102/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig, ImplicitUsings=enable, MSBuildProjectExtensionsPath=/data/project/obj/, NuGetPackageRoot=/data/cache/nuget, Nullable=enable, PackageId=BadRulesProject, ProduceReferenceAssembly=true, RestoreProjectStyle=PackageReference, RoslynTargetsPath=/usr/share/dotnet/sdk/7.0.102/Roslyn, TargetFramework=net6.0, TargetPath=/data/project/bin/Debug/net6.0/BadRulesProject.dll, WarningsAsErrors=;NU1605
+    Build Settings:
+        PreBuildEvent:
+        PostBuildEvent:
+        ApplicationType:
+        DefaultNamespace:BadRulesProject
+        ImportedNamespaces:
+        RunPostBuildEventType:ALWAYS
+        IsBuildable:True
+        IsDeployable:True
+        Configuration:Debug
+        PlatformTarget:AnyCPU
+    ProjectTypeGuid:fae04ec0-301f-11d3-bf4b-00c04f79efbc
+      DotNetCoreSDK:Microsoft.NETCore.App 7.0.0
+      DotNetCoreSDK:Microsoft.NETCore.App 6.0.0
+      DotNetCoreSDK:Microsoft.NETCore.App 5.0.0
+      DotNetCoreSDK:Microsoft.NETCore.App 3.1.0
+      DotNetCoreSDK:Microsoft.NETCore.App 3.0.0
+  Child items:
+    ProjectFileImpl(Path : .gitignore)[NONE ]
+    ProjectFileImpl(Path : AsyncVoid.cs)[COMPILE ]
+    ProjectFileImpl(Path : BadRulesProject.csproj)[]
+    ProjectFileImpl(Path : Cache.cs)[COMPILE ]
+    ProjectFileImpl(Path : Class1.cs)[COMPILE ]
+    ProjectFileImpl(Path : MultiThreadedComponent.cs)[COMPILE ]
+    ProjectFileImpl(Path : TypeCheckAndCast.cs)[COMPILE ]
+    ProjectFileImpl(Path : analysislevel_6_default.editorconfig (..\..\usr\share\dotnet\sdk\7.0.102\Sdks\Microsoft.NET.Sdk\analyzers\build\config\analysislevel_6_default.editorconfig))[Hidden EDITORCONFIGFILES ]
+    Folder [Name:obj, IsHidden:true]
+      Child items:
+        Folder [Name:Debug, IsHidden:true]
+          Child items:
+            Folder [Name:net6.0, IsHidden:true]
+              Child items:
+                ProjectFileImpl(Path : BadRulesProject.AssemblyInfo.cs)[Hidden COMPILE ]
+                ProjectFileImpl(Path : BadRulesProject.GeneratedMSBuildEditorConfig.editorconfig)[Hidden EDITORCONFIGFILES ]
+                ProjectFileImpl(Path : BadRulesProject.GlobalUsings.g.cs)[Hidden COMPILE ]
+    ProjectFileImpl(Path : qodana.yaml)[NONE ]
+  Target framework: net6.0
+    Referenced projects:
+    Referenced assemblies:
+      JetBrains.Annotations, Version=4242.42.42.42, Culture=neutral, PublicKeyToken=1010a0d8d6380325 (/data/cache/nuget/jetbrains.annotations/2022.1.0/lib/netstandard2.0/JetBrains.Annotations.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      Microsoft.CSharp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.CSharp.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.VisualBasic.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      Microsoft.VisualBasic.Core, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.VisualBasic.Core.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.Win32.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.Win32.Registry.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/mscorlib.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/netstandard.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.AppContext, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.AppContext.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Buffers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Buffers.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.Concurrent.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.Immutable.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.NonGeneric.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.Specialized.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ComponentModel.Annotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.Annotations.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.DataAnnotations.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.EventBasedAsync.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.TypeConverter.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Configuration.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Console.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Core.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Data.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Data.Common.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Data.DataSetExtensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.Contracts, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Contracts.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.Debug, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Debug.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.DiagnosticSource.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.FileVersionInfo.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Process.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.StackTrace.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.TextWriterTraceListener.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.Tools, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Tools.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.TraceSource.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Tracing.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Drawing.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Drawing.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Dynamic.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Dynamic.Runtime.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Formats.Asn1, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Formats.Asn1.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Globalization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Globalization.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Globalization.Calendars, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Globalization.Calendars.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Globalization.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Globalization.Extensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.Compression.Brotli, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.Brotli.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.FileSystem.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.Compression.ZipFile, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.ZipFile.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.FileSystem, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.FileSystem.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.AccessControl.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.FileSystem.DriveInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.DriveInfo.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.FileSystem.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.FileSystem.Watcher, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.Watcher.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.IsolatedStorage, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.IsolatedStorage.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.MemoryMappedFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.MemoryMappedFiles.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Pipes.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.Pipes.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Pipes.AccessControl.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.IO.UnmanagedMemoryStream, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.UnmanagedMemoryStream.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.Expressions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Linq.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.Parallel.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Linq.Queryable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.Queryable.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Memory.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Http.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Http.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Http.Json.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.HttpListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.HttpListener.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Mail, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Mail.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.NameResolution, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.NameResolution.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.NetworkInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.NetworkInformation.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Ping, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Ping.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Requests, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Requests.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Security.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.ServicePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.ServicePoint.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Sockets.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebClient.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.WebHeaderCollection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebHeaderCollection.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.WebProxy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebProxy.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebSockets.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Net.WebSockets.Client, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebSockets.Client.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Numerics.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Numerics.Vectors.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ObjectModel.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.DispatchProxy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.DispatchProxy.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Emit.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Emit.ILGeneration.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Emit.Lightweight.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Extensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Metadata.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Reflection.TypeExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.TypeExtensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Resources.Reader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Resources.Reader.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Resources.ResourceManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Resources.ResourceManager.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Resources.Writer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Resources.Writer.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.CompilerServices.VisualC, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.CompilerServices.VisualC.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Extensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Handles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Handles.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.InteropServices.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.InteropServices.RuntimeInformation.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Intrinsics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Intrinsics.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Loader.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Numerics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Numerics.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Formatters.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Serialization.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Json.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Serialization.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Runtime.Serialization.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Xml.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.AccessControl.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Claims.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Algorithms.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.Cng, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Cng.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.Csp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Csp.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Encoding.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.OpenSsl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.OpenSsl.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Primitives.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.X509Certificates.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Principal, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Principal.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Principal.Windows.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Security.SecureString, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.SecureString.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ServiceModel.Web.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ServiceProcess.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Text.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encoding.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encoding.CodePages.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encoding.Extensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encodings.Web.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Json.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.RegularExpressions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Channels, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Channels.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Overlapped.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Tasks, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Tasks.Dataflow, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.Dataflow.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Tasks.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.Extensions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Tasks.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.Parallel.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Thread.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.ThreadPool.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Threading.Timer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Timer.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Transactions.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Transactions.Local, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Transactions.Local.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ValueTuple.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Web.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Web.HttpUtility, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Web.HttpUtility.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Windows.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.Linq.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.ReaderWriter.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.Serialization.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XDocument.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.XmlDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XmlDocument.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XmlSerializer.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.XPath, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XPath.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml.XPath.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XPath.XDocument.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/WindowsBase.dll), Resolved [CopyLocal=True, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      Microsoft.CodeAnalysis.CSharp.NetAnalyzers, Roslyn Analyzer
+      Microsoft.CodeAnalysis.NetAnalyzers, Roslyn Analyzer
+      System.Text.Json.SourceGeneration, Roslyn Analyzer
+
+Project [Name:Miscellaneous Files, GUID:7020124f-9ffc-4ac3-8f3d-aab8e0240759]
+  Sub items count: 0  Referenced projects:
+  Referenced assemblies:
+
+Assembly: 'JetBrains.Annotations', PlatformId: '.NETStandard,Version=v2.0', Files Count:1
+	/data/cache/nuget/jetbrains.annotations/2022.1.0/lib/netstandard2.0/JetBrains.Annotations.dll
+  Reference target AssemblyName: netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+
+Assembly: 'Microsoft.CSharp, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.CSharp.dll
+  Reference target AssemblyName: System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'Microsoft.VisualBasic, Version=10', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.VisualBasic.dll
+  Reference target AssemblyName: Microsoft.VisualBasic.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'Microsoft.VisualBasic.Core, Version=11', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.VisualBasic.Core.dll
+  Reference target AssemblyName: System.IO.FileSystem.DriveInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'Microsoft.Win32.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.Win32.Primitives.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'Microsoft.Win32.Registry, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/Microsoft.Win32.Registry.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.dll
+  Reference target AssemblyName: Microsoft.Win32.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: Microsoft.Win32.SystemEvents, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.CodeDom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Concurrent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.EventBasedAsync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.TypeConverter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Configuration.ConfigurationManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.EventLog, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.FileVersionInfo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.PerformanceCounter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.Process, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.StackTrace, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.TextWriterTraceListener, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.TraceSource, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Compression, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.FileSystem.Watcher, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Ports, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Net.HttpListener, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Mail, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.NameResolution, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.NetworkInformation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Ping, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Requests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.ServicePoint, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Sockets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebHeaderCollection, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebProxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebSockets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebSockets.Client, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Encoding, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Text.RegularExpressions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.AccessControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Threading.Thread, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Windows.Extensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.AppContext, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.AppContext.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Buffers, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Buffers.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Collections, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Collections.Concurrent, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.Concurrent.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Collections.Immutable, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.Immutable.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Collections.NonGeneric, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.NonGeneric.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Collections.Specialized, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Collections.Specialized.dll
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ComponentModel, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ComponentModel.Annotations, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.Annotations.dll
+  Reference target AssemblyName: System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ComponentModel.DataAnnotations, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.DataAnnotations.dll
+  Reference target AssemblyName: System.ComponentModel.Annotations, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ComponentModel.EventBasedAsync, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.EventBasedAsync.dll
+  Reference target AssemblyName: System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ComponentModel.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.Primitives.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ComponentModel.TypeConverter, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ComponentModel.TypeConverter.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Resources.Writer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Configuration, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Configuration.dll
+  Reference target AssemblyName: System.Configuration.ConfigurationManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.Console, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Console.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Core, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Core.dll
+  Reference target AssemblyName: System.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.EventLog, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.PerformanceCounter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.IO.MemoryMappedFiles, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Pipes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Pipes.AccessControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Expressions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Parallel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Queryable, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Cng, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Csp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Data, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Data.dll
+  Reference target AssemblyName: System.Data.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Data.Odbc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Data.OleDb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.Data.Common, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Data.Common.dll
+  Reference target AssemblyName: System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Transactions.Local, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Data.DataSetExtensions, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Data.DataSetExtensions.dll
+  Reference target AssemblyName: System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.Contracts, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Contracts.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.Debug, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Debug.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.DiagnosticSource, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.DiagnosticSource.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.FileVersionInfo, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.FileVersionInfo.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.Process, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Process.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.StackTrace, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.StackTrace.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.TextWriterTraceListener, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.TextWriterTraceListener.dll
+  Reference target AssemblyName: System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.Tools, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Tools.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.TraceSource, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.TraceSource.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Diagnostics.Tracing, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Diagnostics.Tracing.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Drawing, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Drawing.dll
+  Reference target AssemblyName: System.ComponentModel.TypeConverter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Configuration.ConfigurationManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Drawing.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.Drawing.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Drawing.Primitives.dll
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Dynamic.Runtime, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Dynamic.Runtime.dll
+  Reference target AssemblyName: System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Formats.Asn1, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Formats.Asn1.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Numerics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Globalization, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Globalization.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Globalization.Calendars, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Globalization.Calendars.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Globalization.Extensions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Globalization.Extensions.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.Compression, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.Compression.Brotli, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.Brotli.dll
+  Reference target AssemblyName: System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.Compression.FileSystem, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.FileSystem.dll
+  Reference target AssemblyName: System.IO.Compression.ZipFile, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.Compression.ZipFile, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Compression.ZipFile.dll
+  Reference target AssemblyName: System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.FileSystem, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.FileSystem.AccessControl, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.AccessControl.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.FileSystem.DriveInfo, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.DriveInfo.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.FileSystem.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.Primitives.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.FileSystem.Watcher, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.FileSystem.Watcher.dll
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.IsolatedStorage, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.IsolatedStorage.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.MemoryMappedFiles, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.MemoryMappedFiles.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.Pipes, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Pipes.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.Pipes.AccessControl, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.Pipes.AccessControl.dll
+  Reference target AssemblyName: System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.IO.UnmanagedMemoryStream, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.IO.UnmanagedMemoryStream.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Linq, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Linq.Expressions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.Expressions.dll
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Linq.Parallel, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.Parallel.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Linq.Queryable, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Linq.Queryable.dll
+  Reference target AssemblyName: System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Memory, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Memory.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.dll
+  Reference target AssemblyName: System.Net.NetworkInformation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Requests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Sockets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebHeaderCollection, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.Net.Http, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Http.dll
+  Reference target AssemblyName: System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Http.Json, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Http.Json.dll
+  Reference target AssemblyName: System.Net.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.HttpListener, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.HttpListener.dll
+  Reference target AssemblyName: Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebHeaderCollection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Mail, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Mail.dll
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.ServicePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.NameResolution, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.NameResolution.dll
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.NetworkInformation, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.NetworkInformation.dll
+  Reference target AssemblyName: Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Ping, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Ping.dll
+  Reference target AssemblyName: System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Primitives.dll
+  Reference target AssemblyName: Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Requests, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Requests.dll
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.ServicePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebHeaderCollection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Security, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Security.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.ServicePoint, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.ServicePoint.dll
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.Sockets, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.Sockets.dll
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.WebClient, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebClient.dll
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Requests, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebHeaderCollection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.WebHeaderCollection, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebHeaderCollection.dll
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.WebProxy, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebProxy.dll
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.WebSockets, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebSockets.dll
+  Reference target AssemblyName: Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Net.WebSockets.Client, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Net.WebSockets.Client.dll
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Numerics, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Numerics.dll
+  Reference target AssemblyName: System.Numerics.Vectors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Numerics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Numerics.Vectors, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Numerics.Vectors.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ObjectModel, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ObjectModel.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.DispatchProxy, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.DispatchProxy.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.Emit, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Emit.dll
+  Reference target AssemblyName: System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.Emit.ILGeneration, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Emit.ILGeneration.dll
+  Reference target AssemblyName: System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.Emit.Lightweight, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Emit.Lightweight.dll
+  Reference target AssemblyName: System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.Extensions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Extensions.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.Metadata, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Metadata.dll
+  Reference target AssemblyName: System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.Primitives.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Reflection.TypeExtensions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Reflection.TypeExtensions.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Resources.Reader, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Resources.Reader.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Resources.ResourceManager, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Resources.ResourceManager.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Resources.Writer, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Resources.Writer.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.dll
+
+Assembly: 'System.Runtime.CompilerServices.Unsafe, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.CompilerServices.VisualC, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.CompilerServices.VisualC.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Extensions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Extensions.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Handles, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Handles.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.InteropServices, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.InteropServices.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.InteropServices.RuntimeInformation, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.InteropServices.RuntimeInformation.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Intrinsics, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Intrinsics.dll
+  Reference target AssemblyName: System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Loader, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Loader.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Numerics, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Numerics.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Serialization, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Json, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Xml, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Serialization.Formatters, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Formatters.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Serialization.Json, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Json.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Serialization.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Primitives.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Runtime.Serialization.Xml, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Runtime.Serialization.Xml.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Pkcs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.ProtectedData, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Xml, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Windows.Extensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.Security.AccessControl, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.AccessControl.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Claims, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Claims.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.Algorithms, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Algorithms.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.Cng, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Cng.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.Csp, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Csp.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.Encoding, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Encoding.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.OpenSsl, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.OpenSsl.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.Primitives, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.Primitives.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Cryptography.X509Certificates, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Cryptography.X509Certificates.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Principal, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Principal.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.Principal.Windows, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.Principal.Windows.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Security.SecureString, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Security.SecureString.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ServiceModel.Web, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ServiceModel.Web.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Json, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ServiceModel.Syndication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.ServiceProcess, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ServiceProcess.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.ServiceProcess.ServiceController, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'System.Text.Encoding, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encoding.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Text.Encoding.CodePages, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encoding.CodePages.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Text.Encoding.Extensions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encoding.Extensions.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Text.Encodings.Web, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Encodings.Web.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Text.Json, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.Json.dll
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+
+Assembly: 'System.Text.RegularExpressions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Text.RegularExpressions.dll
+  Reference target AssemblyName: System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Channels, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Channels.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Overlapped, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Overlapped.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Tasks, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Tasks.Dataflow, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.Dataflow.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Tasks.Extensions, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.Extensions.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Tasks.Parallel, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Tasks.Parallel.dll
+  Reference target AssemblyName: System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Thread, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Thread.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.ThreadPool, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.ThreadPool.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Threading.Timer, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Threading.Timer.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Transactions, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Transactions.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Transactions.Local, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+
+Assembly: 'System.Transactions.Local, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Transactions.Local.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.ValueTuple, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.ValueTuple.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Web, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Web.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Web.HttpUtility, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+
+Assembly: 'System.Web.HttpUtility, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Web.HttpUtility.dll
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Windows, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Windows.dll
+  Reference target AssemblyName: System.ObjectModel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XmlSerializer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XPath, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.Linq, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.Linq.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XDocument, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XPath.XDocument, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.ReaderWriter, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.ReaderWriter.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.Serialization, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.Serialization.dll
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XmlSerializer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.XDocument, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XDocument.dll
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.XPath, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XPath.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.XPath.XDocument, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XPath.XDocument.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.XmlDocument, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XmlDocument.dll
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'System.Xml.XmlSerializer, Version=6', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/System.Xml.XmlSerializer.dll
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'WindowsBase, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/WindowsBase.dll
+  Reference target AssemblyName: System.IO.Packaging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+
+Assembly: 'mscorlib, Version=4', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/mscorlib.dll
+  Reference target AssemblyName: Microsoft.Win32.Registry, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Concurrent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Console, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.Contracts, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.StackTrace, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.Tracing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.FileSystem.AccessControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.FileSystem.DriveInfo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.IsolatedStorage, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Emit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Emit.ILGeneration, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Emit.Lightweight, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Resources.Writer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.CompilerServices.VisualC, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices.RuntimeInformation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Formatters, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.AccessControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Claims, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Csp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Encoding, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Security.Principal.Windows, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Text.Encoding.Extensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.AccessControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation: [Unresolved] in Universal contexts
+  Reference target AssemblyName: System.Threading.Overlapped, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.Tasks.Parallel, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.Thread, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.ThreadPool, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
+Assembly: 'netstandard, Version=2', PlatformId: 'net6.0', Files Count:1
+	/usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.13/ref/net6.0/netstandard.dll
+  Reference target AssemblyName: Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.Contracts, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Compression.Brotli, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Compression.ZipFile, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.FileSystem.DriveInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.FileSystem.Watcher, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.IsolatedStorage, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.MemoryMappedFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Linq.Queryable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.HttpListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Mail, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.NameResolution, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.NetworkInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Ping, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Requests, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.ServicePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebHeaderCollection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebProxy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Net.WebSockets.Client, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.DispatchProxy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Resources.Writer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.CompilerServices.VisualC, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Numerics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Runtime.Serialization.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Csp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.Tasks.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Transactions.Local, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Web.HttpUtility, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XPath, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+  Reference target AssemblyName: System.Xml.XPath.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, HintLocation:  in Universal contexts
+
