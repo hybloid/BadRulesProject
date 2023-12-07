@@ -11,6 +11,7 @@ public class BloggingContext : DbContext
     {
         var folder = Environment.SpecialFolder.LocalApplicationData;
         var path = Environment.GetFolderPath(folder);
+        var x = 123;
         DbPath = System.IO.Path.Join(path, "blogging.db");
     }
 
