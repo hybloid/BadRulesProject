@@ -10,7 +10,7 @@ on:
 
 jobs:
   qodana:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
         with:
@@ -23,9 +23,8 @@ jobs:
           password: ${{ secrets.SPACE_REGISTRY_PASSWORD }}
 
       - name: Qodana Scan
-        uses: JetBrains/qodana-action@v2023.2.8
+        uses: JetBrains/qodana-action@v2023.3.0
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          args: "--linter,jetbrains/qodana-dotnet:2023.3-eap"
-          pr-mode: true
+          args: "--ide,QDNET"
